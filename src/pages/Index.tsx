@@ -31,10 +31,10 @@ const Index = () => {
             </p>
             <div className="flex flex-wrap items-center justify-center gap-6 pt-4">
               <div className="flex items-center gap-4">
-                <img src="/images/wba-logo.png" alt="WBA" className="h-12 w-12 object-contain" />
+                <img src="/images/wba-logo.jpg" alt="WBA" className="h-12 w-12 object-contain" />
                 <img src="/images/wbc-logo.png" alt="WBC" className="h-12 w-12 object-contain" />
-                <img src="/images/ibf-logo.png" alt="IBF" className="h-12 w-12 object-contain" />
-                <img src="/images/wbo-logo.png" alt="WBO" className="h-12 w-12 object-contain" />
+                <img src="/images/ibf-logo.jpg" alt="IBF" className="h-12 w-12 object-contain" />
+                <img src="/images/wbo-logo.jpg" alt="WBO" className="h-12 w-12 object-contain" />
               </div>
             </div>
             <p className="text-sm text-muted-foreground pt-4">

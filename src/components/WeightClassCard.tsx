@@ -21,7 +21,7 @@ export const WeightClassCard = ({ weightClass }: WeightClassCardProps) => {
             <div className="space-y-3">
               <div className="flex items-center gap-2 pb-2 border-b border-border/30">
                 <img
-                  src="/images/wba-logo.png"
+                  src="/images/wba-logo.jpg"
                   alt="WBA"
                   className="h-8 w-8 object-contain"
                 />
@@ -67,7 +67,7 @@ export const WeightClassCard = ({ weightClass }: WeightClassCardProps) => {
             <div className="space-y-3">
               <div className="flex items-center gap-2 pb-2 border-b border-border/30">
                 <img
-                  src="/images/ibf-logo.png"
+                  src="/images/ibf-logo.jpg"
                   alt="IBF"
                   className="h-8 w-8 object-contain"
                 />
@@ -90,7 +90,7 @@ export const WeightClassCard = ({ weightClass }: WeightClassCardProps) => {
             <div className="space-y-3">
               <div className="flex items-center gap-2 pb-2 border-b border-border/30">
                 <img
-                  src="/images/wbo-logo.png"
+                  src="/images/wbo-logo.jpg"
                   alt="WBO"
                   className="h-8 w-8 object-contain"
                 />
