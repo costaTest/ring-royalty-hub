@@ -32,7 +32,7 @@ const Index = () => {
             <div className="flex flex-wrap items-center justify-center gap-6 pt-4">
               <div className="flex items-center gap-4">
                 <img src="/images/wba-logo.jpg" alt="WBA" className="h-12 w-12 object-contain" />
-                <img src="/images/wbc-logo.png" alt="WBC" className="h-12 w-12 object-contain" />
+                <img src="/images/wbc-logo.jpg" alt="WBC" className="h-12 w-12 object-contain" />
                 <img src="/images/ibf-logo.jpg" alt="IBF" className="h-12 w-12 object-contain" />
                 <img src="/images/wbo-logo.jpg" alt="WBO" className="h-12 w-12 object-contain" />
               </div>

@@ -44,7 +44,7 @@ export const WeightClassCard = ({ weightClass }: WeightClassCardProps) => {
             <div className="space-y-3">
               <div className="flex items-center gap-2 pb-2 border-b border-border/30">
                 <img
-                  src="/images/wbc-logo.png"
+                  src="/images/wbc-logo.jpg"
                   alt="WBC"
                   className="h-8 w-8 object-contain"
                 />
