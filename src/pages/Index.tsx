@@ -1,8 +1,6 @@
 import { weightClasses } from "@/data/champions";
 import { WeightClassCard } from "@/components/WeightClassCard";
 import heroImage from "@/assets/hero-boxing.jpg";
-import { RefreshCcw } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 const Index = () => {
   const lastUpdated = new Date().toLocaleDateString("en-US", {
@@ -14,7 +12,7 @@ const Index = () => {
   return (
     <div className="min-h-screen gradient-dark">
       {/* Hero Section */}
-      <div className="relative overflow-hidden">
+      <div className="relative">
         <div
           className="absolute inset-0 z-0"
           style={{
@@ -23,9 +21,9 @@ const Index = () => {
             backgroundPosition: "center",
           }}
         />
-        <div className="relative z-10 container mx-auto px-4 py-16 md:py-24">
+        <div className="relative z-10 container mx-auto px-4 py-12 md:py-16">
           <div className="text-center space-y-6 max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-7xl font-bold text-gradient animate-fade-in">
+            <h1 className="text-5xl md:text-7xl font-bold text-gradient animate-fade-in leading-tight">
               World Boxing Champions
             </h1>
             <p className="text-xl md:text-2xl text-foreground/90 animate-slide-up">
@@ -48,22 +46,11 @@ const Index = () => {
 
       {/* Weight Classes Section */}
       <div className="container mx-auto px-4 py-12 space-y-8">
-        <div className="flex items-center justify-between mb-8">
-          <div>
-            <h2 className="text-3xl font-bold text-foreground mb-2">All Weight Divisions</h2>
-            <p className="text-muted-foreground">
-              Explore champions across {weightClasses.length} weight classes
-            </p>
-          </div>
-          <Button
-            variant="outline"
-            size="sm"
-            className="gap-2 border-primary/30 hover:border-primary hover:bg-primary/10"
-            onClick={() => window.location.reload()}
-          >
-            <RefreshCcw className="h-4 w-4" />
-            Refresh
-          </Button>
+        <div className="mb-8">
+          <h2 className="text-3xl font-bold text-foreground mb-2">All Weight Divisions</h2>
+          <p className="text-muted-foreground">
+            Explore champions across {weightClasses.length} weight classes
+          </p>
         </div>
 
         <div className="space-y-8">
