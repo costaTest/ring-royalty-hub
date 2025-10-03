@@ -3,12 +3,6 @@ import { WeightClassCard } from "@/components/WeightClassCard";
 import heroImage from "@/assets/hero-boxing.jpg";
 
 const Index = () => {
-  const lastUpdated = new Date().toLocaleDateString("en-US", {
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-  });
-
   return (
     <div className="min-h-screen gradient-dark">
       {/* Hero Section */}
@@ -37,9 +31,6 @@ const Index = () => {
                 <img src="/images/wbo-logo.jpg" alt="WBO" className="h-12 w-12 object-contain" />
               </div>
             </div>
-            <p className="text-sm text-muted-foreground pt-4">
-              Last updated: {lastUpdated}
-            </p>
           </div>
         </div>
       </div>

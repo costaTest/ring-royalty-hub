@@ -36,6 +36,13 @@ npm i
 npm run dev
 ```
 
+## Run with Docker
+
+```docker compose up vite-dev``` → Live dev server (http://localhost:8080)
+
+```docker compose up vite-prod``` → Production build served by Nginx (http://localhost:3000)
+
+
 **Edit a file directly in GitHub**
 
 - Navigate to the desired file(s).

@@ -1,10 +1,20 @@
-version: "3.9"
-
 services:
-  vite-react-app:
+  vite-prod:
     build:
       context: .
       dockerfile: Dockerfile
     ports:
       - "3000:80" # access app at http://localhost:3000
+    restart: unless-stopped
+  
+  vite-dev:
+    image: node:18-alpine 
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "8080:8080"
+    command: sh -c "npm ci && npm run dev -- --host"
+    environment:
+      - CHOKIDAR_USEPOLLING=true
     restart: unless-stopped
