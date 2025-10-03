@@ -17,18 +17,18 @@ const Index = () => {
         />
         <div className="relative z-10 container mx-auto px-4 py-12 md:py-16">
           <div className="text-center space-y-6 max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-7xl font-bold text-gradient animate-fade-in leading-tight">
+            <h1 className="text-5xl md:text-5xl font-bold text-gradient animate-fade-in leading-tight">
               World Boxing Champions
             </h1>
-            <p className="text-xl md:text-2xl text-foreground/90 animate-slide-up">
+            <p className="text-xl md:text-1xl text-foreground/90 animate-slide-up">
               Current titleholders across all weight divisions
             </p>
             <div className="flex flex-wrap items-center justify-center gap-6 pt-4">
               <div className="flex items-center gap-4">
-                <img src="/images/wba-logo.jpg" alt="WBA" className="h-12 w-12 object-contain" />
-                <img src="/images/wbc-logo.jpg" alt="WBC" className="h-12 w-12 object-contain" />
-                <img src="/images/ibf-logo.jpg" alt="IBF" className="h-12 w-12 object-contain" />
-                <img src="/images/wbo-logo.jpg" alt="WBO" className="h-12 w-12 object-contain" />
+                <img src="/images/wba-logo.jpg" alt="WBA" className="h-[72px] w-[72px] object-contain" />
+                <img src="/images/wbc-logo.jpg" alt="WBC" className="h-[72px] w-[72px] object-contain" />
+                <img src="/images/ibf-logo.jpg" alt="IBF" className="h-[72px] w-[72px] object-contain" />
+                <img src="/images/wbo-logo.jpg" alt="WBO" className="h-[72px] w-[72px] object-contain" />
               </div>
             </div>
           </div>
