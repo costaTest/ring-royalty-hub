@@ -25,10 +25,10 @@ const Index = () => {
             </p>
             <div className="flex flex-wrap items-center justify-center gap-6 pt-4">
               <div className="flex items-center gap-4">
-                <img src="/images/wba-logo.jpg" alt="WBA" className="h-[72px] w-[72px] object-contain" />
-                <img src="/images/wbc-logo.jpg" alt="WBC" className="h-[72px] w-[72px] object-contain" />
-                <img src="/images/ibf-logo.jpg" alt="IBF" className="h-[72px] w-[72px] object-contain" />
-                <img src="/images/wbo-logo.jpg" alt="WBO" className="h-[72px] w-[72px] object-contain" />
+                <img src="/images/wba-logo.jpg" alt="WBA" className="h-[72px] w-[72px] object-contain rounded-md" />
+                <img src="/images/wbc-logo.jpg" alt="WBC" className="h-[72px] w-[72px] object-contain rounded-lg" />
+                <img src="/images/ibf-logo.jpg" alt="IBF" className="h-[72px] w-[72px] object-contain rounded-lg" />
+                <img src="/images/wbo-logo.jpg" alt="WBO" className="h-[72px] w-[72px] object-contain rounded-lg" />
               </div>
             </div>
           </div>

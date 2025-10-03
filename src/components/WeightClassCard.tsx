@@ -23,7 +23,7 @@ export const WeightClassCard = ({ weightClass }: WeightClassCardProps) => {
                 <img
                   src="/images/wba-logo.jpg"
                   alt="WBA"
-                  className="h-8 w-8 object-contain"
+                  className="h-8 w-8 object-contain rounded"
                 />
                 <h3 className="font-bold text-sm">WBA</h3>
               </div>
@@ -46,7 +46,7 @@ export const WeightClassCard = ({ weightClass }: WeightClassCardProps) => {
                 <img
                   src="/images/wbc-logo.jpg"
                   alt="WBC"
-                  className="h-8 w-8 object-contain"
+                  className="h-8 w-8 object-contain rounded"
                 />
                 <h3 className="font-bold text-sm">WBC</h3>
               </div>
@@ -69,7 +69,7 @@ export const WeightClassCard = ({ weightClass }: WeightClassCardProps) => {
                 <img
                   src="/images/ibf-logo.jpg"
                   alt="IBF"
-                  className="h-8 w-8 object-contain"
+                  className="h-8 w-8 object-contain rounded"
                 />
                 <h3 className="font-bold text-sm">IBF</h3>
               </div>
@@ -92,7 +92,7 @@ export const WeightClassCard = ({ weightClass }: WeightClassCardProps) => {
                 <img
                   src="/images/wbo-logo.jpg"
                   alt="WBO"
-                  className="h-8 w-8 object-contain"
+                  className="h-8 w-8 object-contain rounded"
                 />
                 <h3 className="font-bold text-sm">WBO</h3>
               </div>
